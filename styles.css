@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  background: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.installation-code {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  margin: 20px 0;
+  white-space: pre-wrap;
+}
+
+.install-btn {
+  background-color: #03dac6;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.install-btn:hover {
+  background-color: #03a897;
+}
+
+.cover {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* 展示框整体样式 */
+.box {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 16px; /* ⬅️ 加上这行，圆角效果 */
+  text-align: center;
+  background-color: #fff; /* 可选，增加对比度 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 可选，美观阴影 */
+}
+
+/* 图片容器：横向排列 */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* 单个图片+文字项 */
+.image-item {
+  flex: 1;
+  text-align: center;
+}
+
+/* 图片下方文字样式 */
+.caption {
+  margin-top: 10px;
+}

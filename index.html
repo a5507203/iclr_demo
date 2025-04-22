@@ -1,104 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Flow: Modularized Agentic Workflow Automation (ICLR'25)</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-        header {
-            background: #333;
-            color: #fff;
-            padding: 15px 0;
-            text-align: center;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .feature-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        .feature {
-            background: #fff;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 8px;
-            width: 30%;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        code {
-            background-color: #f4f4f4;
-            padding: 4px 6px;
-            border-radius: 4px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-
-        .installation-code {
-            background-color: #2d2d2d;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            font-size: 1.1em;
-            margin: 20px 0;
-            white-space: pre-wrap;
-        }
-
-        .install-btn {
-            background-color: #03dac6;
-            padding: 10px 20px;
-            border: none;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .install-btn:hover {
-            background-color: #03a897;
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <header>
-        <h1>Flow: Modularized Agentic Workflow Automation (ICLR'25)</h1>
-        <p>A multi-agent framework designed for efficient task automation through modular workflow design and dynamic refinement.</p>
+      <h1>Flow: Modularized Agentic Workflow Automation (ICLR'25)</h1>
+      <p>
+        A multi-agent framework designed for efficient task automation through
+        modular workflow design and dynamic refinement.
+      </p>
     </header>
 
     <main>
-        <h2>Key Features</h2>
+      <div class="box">
+        <h2>Website Design</h2>
+        <div class="image-row">
+          <div class="image-item">
+            <a href="Website/FlowWebsite/iclr.html">
+              <img
+                src="Website/FlowWebsite/src/ICLR_website.png"
+                class="cover"
+              />
+            </a>
+            <h3 class="caption">Flow</h3>
+          </div>
+          <div class="image-item">
+            <a href="Website/gptWebsite/index.html">
+              <img src="Website/gptWebsite/src/iclr.png" class="cover" />
+            </a>
+            <h3 class="caption">Single Agent</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Latex Beamer Generation</h2>
+        <div class="image-row">
+          <div class="image-item">
+            <a href="Beamer/FlowBeamer/beamer.html">
+              <img src="Beamer/FlowBeamer/src/Beamer.png" class="cover" />
+            </a>
+            <h3 class="caption">Flow</h3>
+          </div>
+          <div class="image-item">
+            <a href="Beamer/gptBeamer/beamer.html">
+              <img src="Beamer/gptBeamer/src/beamer.png" class="cover" />
+            </a>
+            <h3 class="caption">Single Agent</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Tetris Game Building</h2>
+        <div class="image-row">
+          <div class="image-item">
+            <a href="Tetris/FlowTetris/tetris.html">
+              <img src="Tetris/FlowTetris/src/Tetris.png" class="cover" />
+            </a>
+            <h3 class="caption">Flow</h3>
+          </div>
+          <div class="image-item">
+            <img src="Tetris/gptTetris/src/Tetris.png" class="cover" />
+            <h3 class="caption">Single Agent</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Rocks Scissors Paper</h2>
+        <div class="image-row">
+          <div class="image-item">
+            <a href="RSP/FlowRSP/RSP.html">
+              <img src="RSP/FlowRSP/src/RSP.png" class="cover" />
+            </a>
+            <h3 class="caption">Flow</h3>
+          </div>
+          <div class="image-item">
+            <a href="RSP/gptRSP/rsp.html">
+              <img src="RSP/gptRSP/src/rsp.png" class="cover" />
+            </a>
+            <h3 class="caption">Single Agent</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- <h2>Key Features</h2>
         <div class="feature-list">
             <div class="feature">
                 <h3>Modular Workflow Design</h3>
@@ -171,12 +168,14 @@
   journal={ICLR},
   year={2025}
 }
-        </pre>
+        </pre> -->
     </main>
 
     <footer>
-        <p>Flow is developed by Boye Niu, Yiliao Song, Kai Lian, Yifan Shen, Yu Yao, Kun Zhang, and Tongliang Liu. All rights reserved.</p>
+      <p>
+        Flow is developed by Boye Niu, Yiliao Song, Kai Lian, Yifan Shen, Yu
+        Yao, Kun Zhang, and Tongliang Liu. All rights reserved.
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
