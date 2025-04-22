@@ -24,7 +24,7 @@
 
     <main>
       <div class="box" id="website">
-        <h2>Website Design (Model: GPT 4o mini)</h2>
+        <h2>Website Design (Model: gpt-4o-mini)</h2>
         <div class="description-box">
           <p>
             I want to create a website for the following conference: <br />1).
@@ -53,13 +53,13 @@
             <a href="Website/gptWebsite/index.html">
               <img src="Website/gptWebsite/src/iclr.png" class="cover" />
             </a>
-            <h3 class="caption">Single Agent</h3>
+            <h3 class="caption">Without Flow</h3>
           </div>
         </div>
       </div>
 
       <div class="box">
-        <h2>Latex Beamer Generation (Model: GPT 4o mini)</h2>
+        <h2>Latex Beamer Generation (Model: gpt-4o-mini)</h2>
         <div class="description-box">
           <p>
             I am a lecturer. I am teaching the machine learning coure for
@@ -83,13 +83,13 @@
             <a href="Beamer/gptBeamer/beamer.html">
               <img src="Beamer/gptBeamer/src/beamer.png" class="cover" />
             </a>
-            <h3 class="caption">Single Agent</h3>
+            <h3 class="caption">Without Flow</h3>
           </div>
         </div>
       </div>
 
       <div class="box">
-        <h2>Tetris Game Building (Model: GPT o3 mini)</h2>
+        <h2>Tetris Game Building (Model: o3-mini)</h2>
         <div class="description-box">
           <p>
             Create a Tetris game using Python with the pygame library. The game
@@ -117,13 +117,13 @@
             >
               <img src="Tetris/gptTetris/src/Tetris.gif" class="cover" />
             </a>
-            <h3 class="caption">Single Agent</h3>
+            <h3 class="caption">Without Flow</h3>
           </div>
         </div>
       </div>
 
       <div class="box">
-        <h2>Tetris + Match3 (Model: GPT o3 mini)</h2>
+        <h2>Tetris and Bejeweled (Model: o3-mini)</h2>
         <div class="description-box">
           <p>
             Develop a game that fuses Tetris and Bejeweled mechanics. Falling
@@ -150,13 +150,13 @@
             >
               <img src="Tetris_match/gpt/Tetris_match.gif" class="cover" />
             </a>
-            <h3 class="caption">Single Agent</h3>
+            <h3 class="caption">Without Flow</h3>
           </div>
         </div>
       </div>
 
       <div class="box">
-        <h2>Rocks Scissors Paper (Model: GPT 4o mini)</h2>
+        <h2>Rocks Scissors Paper (Model: gpt-4o-mini)</h2>
         <div class="description-box">
           <p>
             Develop a Rock-Paper-Scissors game with a graphical user interface
@@ -177,16 +177,16 @@
             <h3 class="caption">Flow</h3>
           </div>
           <div class="image-item">
-            <a href="RSP/gptRSP/rsp.html">
+            <a href="">
               <img src="RSP/gptRSP/rsp.gif" class="cover" />
             </a>
-            <h3 class="caption">Single Agent</h3>
+            <h3 class="caption">Without Flow</h3>
           </div>
         </div>
       </div>
 
       <div class="box">
-        <h2>Tank war and Pac-man</h2>
+        <h2>Tank war and Pac-man (Model: o3-mini)</h2>
         <div class="description-box">
           <p>
             Create a battlefield game using Python with the pygame library. The
@@ -208,84 +208,15 @@
             <a href="">
               <img src="Pacman/pacman_gpt.gif" class="cover" />
             </a>
-            <h3 class="caption">Single Agent</h3>
+            <h3 class="caption">Without Flow</h3>
           </div>
         </div>
       </div>
-      <!-- <h2>Key Features</h2>
-        <div class="feature-list">
-            <div class="feature">
-                <h3>Modular Workflow Design</h3>
-                <p>Workflows are structured as <strong>Activity-on-Vertex (AOV) graphs</strong>, enabling parallel execution while minimizing dependencies.</p>
-            </div>
-            <div class="feature">
-                <h3>Concurrency</h3>
-                <p>Subtasks execute concurrently based on predefined dependencies.</p>
-            </div>
-            <div class="feature">
-                <h3>Dynamic Workflow Refinement</h3>
-                <p>The framework adapts workflows in real-time based on performance feedback.</p>
-            </div>
-            <div class="feature">
-                <h3>Error Handling & Recovery</h3>
-                <p>Auto-validation of subtasks ensures workflow resilience, preventing failures during execution.</p>
-            </div>
-        </div>
-
-        <h2>How It Works</h2>
-        <ul>
-            <li><strong>Workflow Initialization</strong>: Tasks are structured into an AOV graph, and the system selects the most efficient structure.</li>
-            <li><strong>Execution & Dynamic Updates</strong>: Agents process subtasks concurrently and update workflows dynamically during execution.</li>
-            <li><strong>Workflow Refinement</strong>: Failed tasks are reassigned or redesigned to prevent bottlenecks.</li>
-            <li><strong>Subtask Validation</strong>: Validation is performed based on subtask type and feedback, and results are used to improve subsequent executions.</li>
-        </ul>
-
-        <h2>Installation & Usage</h2>
-        <h3>Requirements</h3>
-        <ul>
-            <li>Python 3.8+</li>
-            <li>OpenAI API</li>
-        </ul>
-
-        <h3>Installation</h3>
-        <p>Clone the repository and install the necessary dependencies:</p>
-        <div class="installation-code">
-            <code>git clone https://github.com/tmllab/2025_ICLR_FLOW.git</code><br>
-            <code>cd 2025_ICLR_FLOW</code><br>
-            <code>pip install -r requirements.txt</code>
-        </div>
-
-        <h3>Configuration</h3>
-        <p>Set your API key and model for configuration:</p>
-        <div class="installation-code">
-            <code>export OPENAI_API_KEY="your-api-key"</code>
-        </div>
-        <p>Set OpenAI Model and define your task:</p>
-        <div class="installation-code">
-            <code>GPT_MODEL: str = "your-model"</code><br>
-            <code>overall_task: str = "your-task"</code>
-        </div>
-
-        <h3>Run Flow</h3>
-        <div class="installation-code">
-            <code>python main.py</code>
-        </div>
-
-        <a href="https://github.com/tmllab/2025_ICLR_FLOW" class="install-btn" target="_blank">Visit the GitHub Repository</a>
-
-        <h2>Example Applications</h2>
-        <p>We provide illustrative examples through Jupyter notebooks to help you get started.</p>
-
-        <h2>Citation</h2>
-        <p>If you find Flow useful, please consider citing our work:</p>
-        <pre>
-@article{niu2025flow,
-  title={Flow: Modularized Agentic Workflow Automation},
-  author={Niu, Boye and Song, Yiliao and Lian, Kai and Shen, Yifan and Yao, Yu and Zhang, Kun and Liu, Tongliang},
-  journal={ICLR},
-  year={2025}
-}
-        </pre> -->
+      <div class="Note">
+        <p>
+          Note that: Not all code examples are guaranteed to run flawlessly.
+        </p>
+      </div>
     </main>
 
     <footer>

@@ -156,6 +156,15 @@ footer {
   top: 0;
 }
 
+.Note {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin-top: 40px;
+  padding: 20px 10px;
+  border-top: 1px solid #eee;
+}
+
 /* 添加媒体查询，适配手机端 */
 @media screen and (max-width: 768px) {
   .image-row {
