@@ -17,7 +17,9 @@ main {
   padding: 20px;
 }
 
-h1,
+h1 {
+  color: white;
+}
 h2 {
   color: #333;
 }
@@ -154,71 +156,20 @@ footer {
   top: 0;
 }
 
+/* 添加媒体查询，适配手机端 */
 @media screen and (max-width: 768px) {
-  .box {
-    width: 90%;
-    margin: 20px auto;
-    padding: 15px;
-  }
-
   .image-row {
     flex-direction: column;
     gap: 20px;
   }
 
   .image-item {
-    width: 100%;
     max-width: 100%;
-  }
-
-  .image-item a {
-    padding-bottom: 56.25%; /* 16:9 比例 */
-  }
-
-  .cover {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.3em;
-  }
-
-  .feature {
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .installation-code {
-    font-size: 0.9em;
-    padding: 10px;
-  }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-
-  header {
-    padding: 10px 0;
-  }
-
-  main {
-    padding: 10px;
   }
 
   .box {
-    margin: 10px auto;
+    width: 95%;
+    margin: 20px auto;
   }
 }
