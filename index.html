@@ -23,14 +23,28 @@
 
     <main>
       <div class="box" id="website">
-        <h2>Website Design</h2>
+        <h2>Website Design (Model: GPT 4o mini)</h2>
+        <div class="description-box">
+          <p>
+            I want to create a website for the following conference: <br />1).
+            Conference Name: International Conference on Learning
+            Representations (ICLR2025) <br />2). Date: April 27, 2025 to May 1,
+            2025 <br />3). Location: San Francisco, California, United States
+            <br />4). Organizer: International Association for Learning
+            Representations <br />Please generate a detailed website structure
+            and content for this conference. For each section, provide example
+            HTML content. Additionally, create a sample CSS stylesheet to style
+            the website. Ensure the content is professional, clear, and suitable
+            for an international academic conference. <br />Note that: <br />1).
+            The previous information I gave you must be included. <br />2). The
+            website should have conference schedule part. <br />3). The website
+            should have conference venue part with a map.
+          </p>
+        </div>
         <div class="image-row">
           <div class="image-item">
-            <a href="Website/FlowWebsite/iclr.html">
-              <img
-                src="Website/FlowWebsite/src/ICLR_website.png"
-                class="cover"
-              />
+            <a href="Website/FlowWebsite/index.html">
+              <img src="Website/FlowWebsite/src/iclr.png" class="cover" />
             </a>
             <h3 class="caption">Flow</h3>
           </div>
@@ -44,7 +58,19 @@
       </div>
 
       <div class="box">
-        <h2>Latex Beamer Generation</h2>
+        <h2>Latex Beamer Generation (Model: GPT 4o mini)</h2>
+        <div class="description-box">
+          <p>
+            I am a lecturer. I am teaching the machine learning coure for
+            research students. Please generate latex code for lecture slide for
+            different reinforcement learning algorithms.
+            <br />Note that: <br />1). Note that the lecture duration is 2 hour,
+            so we need to generate 30 pages. <br />2). for each reinforcement
+            learning algorithms, the slide should include motivation, problem
+            and intuitive solution and detailed math equations. <br />3). Please
+            make sure the the lecture have a good self-contain.
+          </p>
+        </div>
         <div class="image-row">
           <div class="image-item">
             <a href="Beamer/FlowBeamer/beamer.html">
@@ -62,17 +88,33 @@
       </div>
 
       <div class="box">
-        <h2>Tetris Game Building</h2>
+        <h2>Tetris Game Building (Model: GPT o3 mini)</h2>
+        <div class="description-box">
+          <p>
+            Create a Tetris game using Python with the pygame library. The game
+            should feature a standard 10x20 grid for gameplay. Display the
+            current falling tetromino and the next upcoming piece. Include a
+            score counter, a display for the number of cleared lines, and a
+            simple border to distinguish the game area. Each tetromino type
+            should have a unique, vibrant color for clear visibility. The
+            interface should be clean and modern, emphasizing gameplay clarity
+            and user experience.
+          </p>
+        </div>
         <div class="image-row">
           <div class="image-item">
-            <a href="Tetris/FlowTetris/tetris.html">
-              <img src="Tetris/FlowTetris/src/Tetris.png" class="cover" />
+            <a
+              href="https://github.com/tmllab/2025_ICLR_FLOW/blob/main/notebooks/Auto_Unit_Test_On_Tetris.ipynb"
+            >
+              <img src="Tetris/FlowTetris/Tetris.gif" class="cover" />
             </a>
             <h3 class="caption">Flow</h3>
           </div>
           <div class="image-item">
-            <a href="Tetris/FlowTetris/tetris.html">
-              <img src="Tetris/gptTetris/src/Tetris.png" class="cover" />
+            <a
+              href="https://github.com/tmllab/2025_ICLR_FLOW/blob/main/notebooks/Auto_Unit_Test_Off_Tetris.ipynb"
+            >
+              <img src="Tetris/gptTetris/src/Tetris.gif" class="cover" />
             </a>
             <h3 class="caption">Single Agent</h3>
           </div>
@@ -80,23 +122,67 @@
       </div>
 
       <div class="box">
-        <h2>Rocks Scissors Paper</h2>
+        <h2>Tetris + Match3 (Model: GPT o3 mini)</h2>
+        <div class="description-box">
+          <p>
+            Develop a game that fuses Tetris and Bejeweled mechanics. Falling
+            tetrominoes should lock into a grid and transform into colored gems.
+            The game must support both Tetris line-clearing and Bejeweled
+            match-3 clearing, triggering chain reactions and bonus points.
+            Include a GUI (using a framework like Pygame) that displays the game
+            grid, current score, and next tetromino preview, along with smooth
+            animations. No sound effects are needed.
+          </p>
+        </div>
         <div class="image-row">
           <div class="image-item">
-            <a href="RSP/FlowRSP/RSP.html">
-              <img src="RSP/FlowRSP/src/RSP.png" class="cover" />
+            <a
+              href="https://github.com/tmllab/2025_ICLR_FLOW/blob/main/notebooks/Auto_Unit_Test_On_Tetris_match3.ipynb"
+            >
+              <img src="Tetris_match/Flow/Tetris_match.gif" class="cover" />
             </a>
             <h3 class="caption">Flow</h3>
           </div>
           <div class="image-item">
-            <a href="RSP/gptRSP/rsp.html">
-              <img src="RSP/gptRSP/src/rsp.png" class="cover" />
+            <a
+              href="https://github.com/tmllab/2025_ICLR_FLOW/blob/main/notebooks/Auto_Unit_Test_Off_Tetris_match3.ipynb"
+            >
+              <img src="Tetris_match/gpt/Tetris_match.gif" class="cover" />
             </a>
             <h3 class="caption">Single Agent</h3>
           </div>
         </div>
       </div>
 
+      <div class="box">
+        <h2>Rocks Scissors Paper (Model: GPT 4o mini)</h2>
+        <div class="description-box">
+          <p>
+            Develop a Rock-Paper-Scissors game with a graphical user interface
+            (GUI) in Python. The game should allow a player to compete against a
+            naive AI that randomly selects Rock, Paper, or Scissors. The UI
+            should display the player's choice, the AI's choice, and the game
+            result (win, lose, or draw). Provide an interactive and
+            user-friendly experience.
+          </p>
+        </div>
+        <div class="image-row">
+          <div class="image-item">
+            <a
+              href="https://github.com/tmllab/2025_ICLR_FLOW/blob/main/notebooks/Define_Worflow_automatically_Rocks_Scissors_Papers.ipynb"
+            >
+              <img src="RSP/FlowRSP/RSP.gif" class="cover" />
+            </a>
+            <h3 class="caption">Flow</h3>
+          </div>
+          <div class="image-item">
+            <a href="RSP/gptRSP/rsp.html">
+              <img src="RSP/gptRSP/rsp.gif" class="cover" />
+            </a>
+            <h3 class="caption">Single Agent</h3>
+          </div>
+        </div>
+      </div>
       <!-- <h2>Key Features</h2>
         <div class="feature-list">
             <div class="feature">

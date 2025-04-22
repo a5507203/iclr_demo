@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
@@ -51,7 +51,7 @@ section {
   margin: 15px;
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -66,11 +66,14 @@ table {
   border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #ddd;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: left;
 }
@@ -93,20 +96,20 @@ footer {
 /* Media Queries for responsiveness */
 @media (max-width: 600px) {
   nav ul li {
-      display: block;
-      margin: 10px 0;
+    display: block;
+    margin: 10px 0;
   }
 
   section {
-      margin: 10px;
-      padding: 15px;
+    margin: 10px;
+    padding: 15px;
   }
 
   h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 
   table {
-      font-size: 0.9em;
+    font-size: 0.9em;
   }
 }

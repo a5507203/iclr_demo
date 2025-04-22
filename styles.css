@@ -102,6 +102,17 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.description-box {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
 /* Image container: horizontal layout */
 .image-row {
   display: flex;
